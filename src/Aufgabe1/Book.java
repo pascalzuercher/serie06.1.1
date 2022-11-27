@@ -1,10 +1,10 @@
+package Aufgabe1;
 //***************************************************
 //Datei fuer Serie 6, Teilaufgabe 1
 //***************************************************
 
 
 import java.util.Date;
-import java.util.Scanner;
 import java.text.*;
 
 public class Book
