@@ -1,7 +1,5 @@
 package Aufgabe1;
 
-import java.awt.print.Book;
-
 public class Order {
     private int id;
     private String customerName;

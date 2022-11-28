@@ -2,16 +2,13 @@ package Aufgabe1;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 //***************************************************
 //Datei fuer Serie 6, Teilaufgabe 1
 //***************************************************
 
-public class Test
-{
-	public static void main(String args[]) throws ParseException
-	{
+public class Test {
+	public static void main(String args[]) throws ParseException {
 		SimpleDateFormat fmt = new SimpleDateFormat(Book.DATE_FORMAT);
 
 		// Creating Book-objects...
