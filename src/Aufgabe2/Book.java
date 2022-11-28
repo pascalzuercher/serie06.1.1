@@ -4,8 +4,7 @@
 //***************************************************
 
 
-public class Book
-{
+public class Book extends StoreItems{
 	private int id;
 	private String title;
 	private String author;
@@ -13,8 +12,8 @@ public class Book
 	private int price; // CHF
 
 	/** constructor */
-	public Book( int id, String title, String author, int year, int price )
-	{
+	public Book( int id, String title, String author, int year, int price ){
+		super(id, title, year, price);
 		this.id = id;
 		this.title = title;
 		this.author = author;
