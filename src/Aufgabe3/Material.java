@@ -1,3 +1,6 @@
+// Leandro Lüthi; Matrikelnummer: 22-105-035
+// Pascal Zürcher; Matrikelnummer: 22-111-314
+
 package Aufgabe3;
 
 public enum Material {

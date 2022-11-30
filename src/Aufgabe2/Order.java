@@ -3,8 +3,6 @@
 
 package Aufgabe2;
 
-import Aufgabe1.Book;
-
 import java.util.List;
 
 public class Order {

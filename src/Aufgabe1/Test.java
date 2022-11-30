@@ -1,3 +1,6 @@
+// Leandro Lüthi; Matrikelnummer: 22-105-035
+// Pascal Zürcher; Matrikelnummer: 22-111-314
+
 package Aufgabe1;
 
 import java.text.ParseException;
@@ -8,7 +11,7 @@ import java.text.SimpleDateFormat;
 //***************************************************
 
 public class Test {
-	public static void main(String args[]) throws ParseException {
+	public static void main(String[] args) throws ParseException {
 		SimpleDateFormat fmt = new SimpleDateFormat(Book.DATE_FORMAT);
 
 		// Creating Book-objects...
