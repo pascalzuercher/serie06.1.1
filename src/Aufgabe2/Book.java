@@ -1,37 +1,27 @@
+// Leandro Lüthi; Matrikelnummer: 22-105-035
+// Pascal Zürcher; Matrikelnummer: 22-111-314
 
+package Aufgabe2;
 //***************************************************
 //Datei fuer Serie 6, Teilaufgabe 2
 //***************************************************
 
 
-public class Book extends StoreItems{
-	private int id;
-	private String title;
-	private String author;
-	private int year;
-	private int price; // CHF
 
-	/** constructor */
-	public Book( int id, String title, String author, int year, int price ){
+public class Book  extends StoreItem {
+	protected String author;
+
+	/**
+	 * constructor
+	 */
+	public Book(int id, String title, String author, int year, int price) {
 		super(id, title, year, price);
-		this.id = id;
-		this.title = title;
 		this.author = author;
-		this.year = year;
-		this.price = price;
 	}
 
-	public String getDescription()
-	{
+	@Override
+	public String getDescription() {
 		return id + " (Book) " + title + ", by " + author +
-			", " + year + ", " + price + " CHF";
-	}
-
-	public int getPrice() {
-		return price; 
-	}
-
-	public int getId() { 
-		return id; 
+				", " + year + ", " + price + " CHF";
 	}
 }
